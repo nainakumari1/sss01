@@ -1,0 +1,19 @@
+services:
+  - type: web
+    name: sss-detailing
+    runtime: node
+    plan: free
+    buildCommand: npm install && npm run build
+    startCommand: npm start
+    healthCheckPath: /healthz
+    envVars:
+      - key: NODE_VERSION
+        value: 20
+      - key: GOOGLE_PLACES_API_KEY
+        sync: false
+      - key: GOOGLE_MAPS_EMBED_KEY
+        sync: false
+      - key: GOOGLE_PLACE_ID
+        sync: false
+      - key: REVIEWS_REFRESH_HOURS
+        value: 6
