@@ -7,10 +7,12 @@ import About from './pages/About.jsx';
 import Contact from './pages/Contact.jsx';
 import Quote from './pages/Quote.jsx';
 import Book from './pages/Book.jsx';
+import MotionEffects from './components/MotionEffects.jsx';
 
 export default function App() {
   return (
     <>
+      <MotionEffects />
       <Header />
       <main>
         <Routes>
