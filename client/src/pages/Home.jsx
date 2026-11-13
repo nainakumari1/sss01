@@ -32,7 +32,7 @@ export default function Home() {
             <p className="trust">Convenient Mobile Service | Professional Results | Customer Satisfaction</p>
           </div>
           <figure className="hero-img">
-            <img src="/images/door-panel-after.jpg" alt="Freshly detailed rear door panel of a pickup truck" />
+            <img src="/images/foam-lexus.jpg" alt="Vehicle covered in foam during a professional exterior detail" />
           </figure>
         </div>
       </section>
